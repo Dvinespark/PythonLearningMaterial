@@ -23,6 +23,6 @@ class Basic_Calculator:
         returns: divides a/b
         """
         if self._num2 == 0:
-            raise CustomException("Cannot divide a number by zero")
+            raise ZeroDivisionError
         else:
             return self._num1 / self._num2
